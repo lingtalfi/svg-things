@@ -59,7 +59,9 @@ Here is the html:
 ```
 
 
-And here is the svg:
+### 12 vertical lines, no gutter
+
+And here is a svg file, that generates a 12 columns css grid, without gutter:
 
 ```html
 <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
@@ -71,5 +73,23 @@ And here is the svg:
     <rect x="0" y="0" width="100%" height="100%" fill="url(#pat)"></rect>
 </svg>
 ```
+
+### 12 vertical lines, with gutters
+
+And here is a svg file, that generates a 12 columns css grid, with gutters.
+It has two flavours: either vertical lines, or colored columns.
+
+[Vertical lines](https://github.com/lingtalfi/svg-things/blob/master/svg-files/svg-12grid-gutter-lines.svg)
+
+[Colored columns](https://github.com/lingtalfi/svg-things/blob/master/svg-files/svg-12grid-gutter-colors.svg)
+
+If you wonder how I did generate those files, check out my [SvgGeneratorGrid](https://github.com/lingtalfi/SvgGridGenerator) php class.
+
+
+
+
+
+
+
 
 
