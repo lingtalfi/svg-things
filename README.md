@@ -28,7 +28,14 @@ Note3: tested (successfully) with firefox 48, chrome 53.
 
 
 
+Notes about matrices
+----------------------
+2016-09-04
 
+
+Some notes while investigating what (svg) matrices are and how to use them.
+
+https://github.com/lingtalfi/svg-things/blob/master/notes-about-matrices.md
 
 
 
