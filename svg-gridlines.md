@@ -24,6 +24,12 @@ v = 1 / 12 ~= 0.08333
 ```
 
 
+There are many ways to use the svg grid.
+A simple way s to put the svg grid as the background image of an element (like the body element for instance).
+
+
+
+Here is the html:
 
 ```html
 <!DOCTYPE html>
@@ -39,13 +45,24 @@ v = 1 / 12 ~= 0.08333
         body {
             padding: 0px;
             margin: 0px;
+            background: url(svg-grid.svg) repeat top left;
+            width: 100%;
+            height: 100%;
         }
-
     </style>
 </head>
 
 <body>
-<svg width="100%" height="100%">
+
+</body>
+</html>
+```
+
+
+And here is the svg:
+
+```html
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
     <defs>
         <pattern id="pat" x="0" y="0" width=".08333" height="1">
             <rect class="gridline" x="0" y="0" width="1" height="100%" fill="black" opacity=".1"></rect>
@@ -53,6 +70,6 @@ v = 1 / 12 ~= 0.08333
     </defs>
     <rect x="0" y="0" width="100%" height="100%" fill="url(#pat)"></rect>
 </svg>
-</body>
-</html>
 ```
+
+
