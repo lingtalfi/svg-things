@@ -39,6 +39,14 @@ https://github.com/lingtalfi/svg-things/blob/master/notes-about-matrices.md
 
 
 
+Using svg to draw 12 lines for a css grid
+----------------------
+2016-09-04
+
+If you are creating a css grid system, having background lines showing where the columns are might be useful.
+Svg can draw equally spaced vertical lines that resize with the window.
+
+Check it out: https://github.com/lingtalfi/svg-things/blob/master/svg-gridlines.md
 
 
 
