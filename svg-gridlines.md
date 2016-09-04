@@ -81,7 +81,7 @@ It has two flavours: either vertical lines, or colored columns.
 
 [Vertical lines](https://github.com/lingtalfi/svg-things/blob/master/svg-files/svg-12grid-gutter-lines.svg)
 
-[Colored columns](https://github.com/lingtalfi/svg-things/blob/master/svg-files/svg-12grid-gutter-colors.svg)
+[Colored columns](https://github.com/lingtalfi/svg-things/blob/master/svg-files/svg-12grid-gutter-color.svg)
 
 If you wonder how I did generate those files, check out my [SvgGeneratorGrid](https://github.com/lingtalfi/SvgGridGenerator) php class.
 
